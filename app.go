@@ -15,5 +15,5 @@ func main() {
 
 	//Creación del servidor
 	fmt.Println("El servidor esta corriedno en el puerto 3000")
-	http.ListenAndServe("localhost:3000", nil)
+	http.ListenAndServe("0.0.0.0:3000", nil)
 }
